@@ -1,0 +1,17 @@
+DONE: 	A "C" Test: The 0x10 Best Questions for Xould-be Embedded Programmers
+DONE:	Use Lint for Static Code Analysis  
+DONE:	Uses for C’s offsetof() Macro  
+DONE:	In Praise of the C Preprocessor’s #error Directive  
+DONE:	RS-485 Transmit Enable Signal Control  
+
+Minimize Interrupt Service Routine Overhead 
+How to Use C’s Volatile Keyword 
+Optimal C Constructs for 8051 Microcontrollers 
+
+MISRA-C Guidelines for Safety Critical Software  
+
+Use Strings to Internationalize C Programs  
+Efficient C Code for 8-bit Microcontrollers  
+
+Jump Tables via Function Pointer Arrays in C/C++  
+

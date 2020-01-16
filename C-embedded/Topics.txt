@@ -1,0 +1,44 @@
+----------------
+// Preprocessor #error
+
+
+
+----------------
+// Serial RS485
+
+
+----------------
+// const qualifier east vs west
+
+
+
+----------------
+// volatile keyword uses
+
+
+
+
+----------------
+//Integer promotion to unsigned
+
+
+
+----------------
+// Bitwise mask
+
+
+
+----------------
+// ISR rules
+
+
+
+----------------
+// Reentrant code
+
+
+
+
+
+----------------
+// C's offsetof(Struct, Member)
