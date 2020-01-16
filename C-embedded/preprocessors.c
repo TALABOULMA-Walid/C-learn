@@ -6,10 +6,10 @@
 #define MIN(A,B) ( (B) < (A) ? (B) : (A) )  //better for stability
 #define MIN_BIS(A,B)
 
-int main()
+unsigned long int main()
 {
 
-int a = SECONDS_PER_YEAR;
+unsigned long int a = SECONDS_PER_YEAR;
 
 return 2*a - a -a;
 }

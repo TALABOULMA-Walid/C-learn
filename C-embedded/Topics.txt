@@ -30,15 +30,40 @@
 
 ----------------
 // ISR rules
-
-
+stored in vectors, execute a jump to dispatcher, turn of global interrupt to manage c runtime 
+stack then reenable, disable caching, dispatcher store scratch register before calling the ISR
+ dispatcher use an address of the handler  ( use macro to setup handler ) 
+do not return values
+as small as possible
+not use blocking code 
+change volatile qualified global variables to communicate
+sometimes must reenable interrupts
+can nest with priority 
+interrupts can be masked
+possible to trigger interrupts by setting special registers bits
+we can clear pending interrupts before setup of interrupt handler to avoid servicing it right after
 
 ----------------
 // Reentrant code
-
+dont use static or global variable
+dont call non reentrant code
+can be thread safe but not reentrant ( for exampel if it guards it execution with mutex )
+must be used in ISR
 
 
 
 
 ----------------
 // C's offsetof(Struct, Member)
+
+
+----------------
+// Lint
+use splint lintable.c to analyse example file, or if not available gcc -Wall -Wpedantic 
+
+----------------
+// MISRA C  UK-based Motor Industry Software Reliability Association
+127 Guidelines ( required / advisory )
+deviation for hardware specific features are allowed but must be documented and localized
+
+----------------
