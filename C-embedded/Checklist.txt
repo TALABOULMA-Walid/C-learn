@@ -4,10 +4,11 @@ reDONE:	In Praise of the C Preprocessor’s #error Directive
 reDONE:	RS-485 Transmit Enable Signal Control  
 DONE:	Use Lint for Static Code Analysis
 DONE:	MISRA-C Guidelines for Safety Critical Software
+DONE:	How to Use C’s Volatile Keyword
+x DONE:	Minimize Interrupt Service Routine Overhead 
 
 ---------------------------------
-x DONE:	Minimize Interrupt Service Routine Overhead 
-x DONE:	How to Use C’s Volatile Keyword 
+
 x DONE:	Optimal C Constructs for 8051 Microcontrollers 
 x DONE:	Use Strings to Internationalize C Programs  
 x DONE:	Efficient C Code for 8-bit Microcontrollers  

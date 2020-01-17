@@ -14,9 +14,12 @@
 
 ----------------
 // volatile keyword uses
-
-
-
+because of compileroptimization turned on, 
+or enabling of interrupts or going from isolted app to multithreaded ones
+use in :
+memory mapped peripheral registers
+global variables modified by ISR (and tested within loops for example in main program ) 
+global variables accessed by multithreaded application
 
 ----------------
 //Integer promotion to unsigned
@@ -34,6 +37,7 @@ stored in vectors, execute a jump to dispatcher, turn of global interrupt to man
 stack then reenable, disable caching, dispatcher store scratch register before calling the ISR
  dispatcher use an address of the handler  ( use macro to setup handler ) 
 do not return values
+end with return from interrupt instruction RETI ( restore the flags register ) (int similar to far call + flags) 
 as small as possible
 not use blocking code 
 change volatile qualified global variables to communicate
@@ -50,12 +54,8 @@ dont call non reentrant code
 can be thread safe but not reentrant ( for exampel if it guards it execution with mutex )
 must be used in ISR
 
-
-
-
 ----------------
 // C's offsetof(Struct, Member)
-
 
 ----------------
 // Lint
