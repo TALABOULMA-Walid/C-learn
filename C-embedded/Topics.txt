@@ -67,3 +67,5 @@ use splint lintable.c to analyse example file, or if not available gcc -Wall -Wp
 deviation for hardware specific features are allowed but must be documented and localized
 
 ----------------
+// 1's 2's Complement 
+2's complement coding is used more 
